@@ -34,7 +34,7 @@ if prompt:
     response = client.chat.completions.create(
         model="openai/gpt-oss-120b",
         messages=[ 
-            {"role": "system", "content": "you are a funny sarcastic assistant"},
+            {"role": "system", "content": "you are a roasting assistant"},
             *st.session_state.messages
         ]
     )
